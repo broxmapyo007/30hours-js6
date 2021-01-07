@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Todos-app</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <h2 class="header__subtitle">Brox js 5</h2>
+        <h1 class="header__title">To-do App</h1>
+    </div>
+</div>
+
+<div class="actions">
+    <div class="actions__container">
+        <input id="filter-todo" class="input" type="text" placeholder="Filter todos">
+        <label class="checkbox" >
+            <input id="hide-completed" type="checkbox">Hide completed
+        </label>
+    </div>
+</div>
+<br><hr><br>
+   <div class="container">
+
+        <form id="todo-form">
+            <input type="text" class="input" placeholder="New Todo" name="addTodo">
+            <button class="button">Submit</button>
+        </form><br><hr><br>
+        <div id="todos"></div>
+        <br><hr><br>
+   </div>
+
+    <script src="./scripts/uuid.js"></script>
+    <script src="./scripts/todos-functions.js"></script>
+    <script src="./scripts/todo-app.js"></script>
+</body>
+</html>
